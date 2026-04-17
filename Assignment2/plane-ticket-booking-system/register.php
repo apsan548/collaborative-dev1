@@ -1,5 +1,5 @@
 <?php
-// 🔗 Include the database connection file
+//  Include the database connection file
 include('db.php');
 
 // 🔐 Start session for managing user data
