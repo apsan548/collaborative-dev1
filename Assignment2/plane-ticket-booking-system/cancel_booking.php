@@ -1,5 +1,5 @@
 <?php
-// Start session safely
+//  Start session safely
 if (session_status() === PHP_SESSION_NONE) {
     include('session_config.php');
 }
