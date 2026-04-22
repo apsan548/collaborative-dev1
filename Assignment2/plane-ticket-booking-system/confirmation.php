@@ -3,7 +3,7 @@ if (session_status() === PHP_SESSION_NONE) {
     include('session_config.php');
 }
 
-// 🔐 Security headers (VERY IMPORTANT)
+// Security headers (VERY IMPORTANT)
 header("X-Frame-Options: DENY");
 header("X-Content-Type-Options: nosniff");
 header("X-XSS-Protection: 1; mode=block");
