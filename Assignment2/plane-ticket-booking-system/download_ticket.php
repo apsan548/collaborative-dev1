@@ -8,7 +8,7 @@ if (!isset($_GET['id'])) {
 
 $booking_id = $_GET['id'];
 
-// Fetch booking
+//Fetch booking
 $stmt = $conn->prepare("
     SELECT b.*, p.full_name, p.email, p.seat_class
     FROM bookings b
