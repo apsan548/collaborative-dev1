@@ -1,6 +1,6 @@
 <?php
 include('session_config.php');
-// Session timeout (5 minutes)
+//Session timeout (5 minutes)
 $timeout = 300; // seconds
 
 if (isset($_SESSION['last_activity'])) {
