@@ -1,7 +1,7 @@
 <?php
 include('session_config.php');
 
-// 🔐 Check if POST request
+// Check if POST request
 if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 
     //  Validate CSRF token

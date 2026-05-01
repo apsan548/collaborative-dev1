@@ -2,7 +2,7 @@
 // 🔗 Include the database connection file
 include('db.php'); // Make sure the path to db.php is correct
 
-// 🔐 Start session to manage logged-in users
+// Start session to manage logged-in users
 include('session_config.php');
 // 🔐 Generate CSRF token (only once per session)
 if (empty($_SESSION['csrf_token'])) {
