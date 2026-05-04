@@ -4,7 +4,7 @@ if (session_status() === PHP_SESSION_NONE) {
     include('session_config.php');
 }
 
-// 🔒 Check login
+// Check login
 if (!isset($_SESSION['user_id'])) {
     header("Location: login.php");
     exit;
