@@ -1,7 +1,7 @@
 <?php
 include('session_config.php');
 
-/* 🔐 SECURITY HEADERS */
+/* SECURITY HEADERS */
 header("X-Frame-Options: DENY");
 header("X-Content-Type-Options: nosniff");
 header("X-XSS-Protection: 1; mode=block");
